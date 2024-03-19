@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1000px;
+            margin: 10px auto;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        img, video {
+            max-width: 50%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+
+        <div class="column">
+            <img src="13202-one-piece-one-piece-poster.jpg" alt="Anime 1" onclick="openInNewTab('imagem1')">
+            <img src="7-taizai_teaser.jpg" alt="Anime 2" onclick="openInNewTab('imagem2')">
+            <img src="Naruto.jpg" alt="Anime 3" onclick="openInNewTab('imagem3')">
+        </div>
+
+        <div class="column">            
+            <td>
+                <a href="https://youtu.be/MCb13lbVGE0?feature=shared" target="_blank">
+                    <video controls>
+                        <source src="anime1.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </td>
+            <td>
+                <a href="https://youtu.be/wxcvbL6o55M?feature=shared" target="_blank">
+                    <video controls>
+                        <source src="anime1.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </td>
+            <td>
+                <a href="https://youtu.be/-G9BqkgZXRA?feature=shared" target="_blank">
+                    <video controls>
+                        <source src="anime1.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </td>
+    <script>
