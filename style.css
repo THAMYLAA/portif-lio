@@ -136,8 +136,10 @@ section.sobre .flex{
 }
 
 button{
+    width: 100px;
+    height: 30px;
     background-color: #ff2500;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
 }
 
