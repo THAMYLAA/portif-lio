@@ -14,11 +14,14 @@ body{
 .interface{
     max-width: 1280px;
     margin: 0 auto;
-    margin-bottom: 100px;
 }
 
 .flex{
     display: flex;
+}
+.flex1{
+    display: flex;
+    margin-bottom: 70px;
 }
 
 .btn-contato button{
