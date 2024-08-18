@@ -19,10 +19,6 @@ body{
 .flex{
     display: flex;
 }
-.flex1{
-    display: flex;
-    margin-bottom: 70px;
-}
 
 .btn-contato button{
     padding: 10px 40px;
@@ -40,21 +36,10 @@ h2.titulo{
     color: #fff;
     font-size: 38px;
     text-align: center;
-    padding-top: 180px;
 }
 
 h2.titulo span{
     color: #f80d91;
-}
-h2.titulo1{
-    color: #fff;
-    font-size: 38px;
-    text-align: center;
-    padding-top: 120px;
-}
-
-h2.titulo1 span{
-    color: #ff2500;
 }
  button:hover{
     box-shadow: 0px 0px 8px#f80d91;
@@ -127,7 +112,6 @@ section.sobre .flex{
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
-    margin-top: 220px;
 }
 
 .sobre .txt-sobre h2 span{
@@ -249,8 +233,4 @@ form textarea{
     section.projeto{
         padding: 40px 8%;
     }
-}
-.separar{
-    height: 300px;
-    width: 100%;
 }
